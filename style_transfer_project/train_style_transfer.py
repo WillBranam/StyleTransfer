@@ -2,7 +2,7 @@ import torch
 from torch.utils.data import DataLoader
 from models.transformer import TransformerNet
 from utils.losses import compute_content_loss, compute_style_loss
-from datasets.wikiart_csv.wikiart_dataset import WikiArtCSVLoader  # <-- Updated import
+from datasets.wikiart_csv.wikiart_dataset import WikiArtCSVLoader
 import torchvision.models as models
 
 # Dataset using CSV
