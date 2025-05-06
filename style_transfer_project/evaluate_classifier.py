@@ -21,7 +21,6 @@ classifier.fc = torch.nn.Linear(classifier.fc.in_features, len(dataset.classes))
 classifier = classifier.to(device)
 
 # Dummy training loop (to be replaced with actual training if needed)
-# This only demonstrates structure
 optimizer = torch.optim.Adam(classifier.parameters(), lr=1e-4)
 criterion = torch.nn.CrossEntropyLoss()
 
